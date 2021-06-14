@@ -5,8 +5,8 @@ const {username, room} = Qs.parse(location.search, {
     ignoreQueryPrefix:true
 });
 
-let fromUser="John";
-let toUser="Maria";
+let fromUser="Văn";
+let toUser="Mr.Đức";
 //socket.emit('userDetails',{fromUser,toUser});
 
 function storeDetails() {
