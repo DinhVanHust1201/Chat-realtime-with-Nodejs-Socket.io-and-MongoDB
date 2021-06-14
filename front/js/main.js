@@ -18,7 +18,7 @@ function storeDetails() {
 
 //Gửi tin nhắn
 chatForm.addEventListener('submit', (e) => {
-    e.preventDefault(); //Prevents default logging to a file
+    e.preventDefault(); 
     const msg = e.target.elements.msg.value;
     final = {
         'fromUser':fromUser,
