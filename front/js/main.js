@@ -16,13 +16,6 @@ function storeDetails() {
     socket.emit('userDetails',{fromUser,toUser}); //gửi thông tin đến client về cuộc trò chuyện đã thiết lập
 }
 
-function storeTo() {
-    
-    //console.log(toUser);
-}
-
-
-
 //Gửi tin nhắn
 chatForm.addEventListener('submit', (e) => {
     e.preventDefault(); //Prevents default logging to a file
